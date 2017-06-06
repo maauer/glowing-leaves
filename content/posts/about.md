@@ -1,1 +1,1 @@
-
+Hi, I am max. I am a human who does things. At some point I will finish this page. If for some reason you want to contact my email is my name at this domain. You can find me on the internet including, [Twitter](/twitter) and [Github](/github). 
