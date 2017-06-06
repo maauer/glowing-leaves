@@ -1,1 +1,12 @@
 /* main.css */
+/* main.css is included at the top of every document, without comments and minimized */
+
+/*--------------------------------------------*/
+/* vars */
+:root {
+--background: #181818;
+--main-color: #ffffff;
+--accent-color: #BA160C;
+}
+
+html, body {margin: 0; padding: 0; background-color: var(--background);}
