@@ -6,7 +6,6 @@
 :root {
 --background: #181818;
 --main-color: #ffffff;
---accent-color: #BA160C;
-}
+--accent-color: #BA160C; }
 
 html, body {margin: 0; padding: 0; background-color: var(--background);}
