@@ -24,7 +24,7 @@ print (listpages)
 for i in range (0, len(listpages)):
 	page_to_open = pagedir + '/' + listpages[i]
 	
-	lineNum = get_line_number('<style>', page_to_open)
+	lineNum = pithpithsnake.getlinenumber.get_line_number('<style>', page_to_open)
 	print(lineNum)
 	
 	pagefile = open(page_to_open, 'r')
