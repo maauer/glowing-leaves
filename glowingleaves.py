@@ -4,6 +4,7 @@ import getlinenumber as functionlist
 basedir = '.'
 pagedir = basedir + '/content/pages'
 postdir = basedir + '/content/posts'
+cssdir = basedir + './css'
 
 #list all files in directory
 listdir = os.listdir('.')
@@ -27,5 +28,14 @@ for i in range (0, len(listpages)):
 	lineNum = functionlist.get_line_number('<style>', page_to_open)
 	print(lineNum)
 	
-	pagefile = open(page_to_open, 'r')
+	css_to_open = basedir + '/main.css'
+	cssfile = open(css_to_open, 'r')
+	data = cssfile.read()
+	print (cssfile.read())
+	
+	pagefile = open(page_to_open, 'w')
+	
 	pagefile.close()
+
+	
+	
